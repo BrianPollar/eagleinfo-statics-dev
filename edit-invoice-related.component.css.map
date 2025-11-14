@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/input/edit-invoice-related/edit-invoice-related.component.scss"],
+  "sourcesContent": [".box-label {\n  &:hover {\n    background: rgba(56, 56, 56, 0.706);\n  }\n}\n\n.active-box {\n  background: rgba(56, 56, 56, 0.706);\n}\n\n.selectBoxy {\n  background: transparent;\n}\n\n.checkBoxesy {\n  // display: block;\n  position: absolute;\n  z-index: 99999999999;\n}\n\n.abs-contner {\n  margin-top: 0px;\n  padding-top: 10px;\n  min-width: 130px;\n  //max-height: 70px !important;\n}\n\n.pdt-ctrl {\n  // position: absolute;\n  // margin-bottom: 20px;\n  // z-index: 99999999999;\n  // background: red;\n  width: 400px;\n\n  .selectBox-cont {\n    display: flex;\n    flex-wrap: nowrap;\n    flex-direction: column;\n  }\n}\n\n.small-td {\n  input {\n    max-width: 150px;\n  }\n}\n\n.table-responsive {\n  // padding-top: 60px;\n}\n\n.selectable-container {\n  max-height: 300px !important;\n  overflow-y: auto !important;\n}\n\ntable {\n  background: var(--app-color-light) !important;\n}\n\n.optional {\n  color: green;\n}\n"],
+  "mappings": ";AACE,CAAA,SAAA;AACE,cAAA,KAAA,EAAA,EAAA,EAAA,EAAA,EAAA,EAAA;;AAIJ,CAAA;AACE,cAAA,KAAA,EAAA,EAAA,EAAA,EAAA,EAAA,EAAA;;AAGF,CAAA;AACE,cAAA;;AAGF,CAAA;AAEE,YAAA;AACA,WAAA;;AAGF,CAAA;AACE,cAAA;AACA,eAAA;AACA,aAAA;;AAIF,CAAA;AAKE,SAAA;;AAEA,CAPF,SAOE,CAAA;AACE,WAAA;AACA,aAAA;AACA,kBAAA;;AAKF,CAAA,SAAA;AACE,aAAA;;AAQJ,CAAA;AACE,cAAA;AACA,cAAA;;AAGF;AACE,cAAA,IAAA;;AAGF,CAAA;AACE,SAAA;;",
+  "names": []
+}

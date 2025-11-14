@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/services/eventbus.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { Eventbus } from '@main-shared-lib';\n\n@Injectable({\n  providedIn: 'root'\n})\n\nexport class EventbusService\n  extends Eventbus {\n  constructor() {\n    super();\n  }\n}\n"],
+  "mappings": ";;;;;;;;AAOM,IAAO,kBAAP,MAAO,yBACH,SAAQ;EAChB,cAAA;AACE,UAAK;EACP;;;uBAJW,kBAAe;IAAA;EAAA;;4EAAf,kBAAe,SAAf,iBAAe,WAAA,YAHd,OAAM,CAAA;EAAA;;",
+  "names": []
+}

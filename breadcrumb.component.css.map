@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/breadcrumb/breadcrumb.component.scss"],
+  "sourcesContent": [".overide-over {\n  // on dark mode\n  @media (prefers-color-scheme: dark) {\n    &:hover {\n      color: var(--primary-color) !important;\n    }\n  }\n}\n"],
+  "mappings": ";AAEE,OAAA,CAAA,oBAAA,EAAA;AACE,GAAA,YAAA;AACE,WAAA,IAAA;;;",
+  "names": []
+}

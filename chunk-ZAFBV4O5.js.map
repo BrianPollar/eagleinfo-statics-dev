@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/loaders/loader-spinner/loader-spinner.component.ts", "projects/shared-lib/src/lib/components/loaders/loader-spinner/loader-spinner.component.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'lib-loader-spinner',\n  standalone: true,\n  imports: [],\n  templateUrl: './loader-spinner.component.html',\n  styleUrl: './loader-spinner.component.css'\n})\nexport class LoaderSpinnerComponent {\n\n}\n", "<div class=\"circle\"></div>\n"],
+  "mappings": ";;;;;;;;AASM,IAAO,yBAAP,MAAO,wBAAsB;;;uBAAtB,yBAAsB;IAAA;EAAA;;yEAAtB,yBAAsB,WAAA,CAAA,CAAA,oBAAA,CAAA,GAAA,YAAA,MAAA,UAAA,CAAA,6BAAA,GAAA,OAAA,GAAA,MAAA,GAAA,QAAA,CAAA,CAAA,GAAA,QAAA,CAAA,GAAA,UAAA,SAAA,gCAAA,IAAA,KAAA;AAAA,UAAA,KAAA,GAAA;ACTnC,QAAA,oBAAA,GAAA,OAAA,CAAA;;;;;;6EDSa,wBAAsB,EAAA,WAAA,yBAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

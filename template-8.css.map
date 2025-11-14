@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/view-one/templates/template-8/template-8-shared/styles/template-8.scss"],
+  "sourcesContent": [".invoice-table th {\n  background: #01b3f2;\n  color: white;\n}\n"],
+  "mappings": ";AAAA,CAAA,cAAA;AACE,cAAA;AACA,SAAA;;",
+  "names": []
+}

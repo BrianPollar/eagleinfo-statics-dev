@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/business-manager/src/app/components/pane/invoice/company-setting-nav/company-setting-nav.component.scss"],
+  "sourcesContent": [".active {\n  span {\n    color: rgb(29, 29, 195) !important;\n  }\n  // dark mode\n  @media (prefers-color-scheme: dark) {\n    span {\n      color: rgb(194, 194, 194) !important;\n    }\n  }\n}\n"],
+  "mappings": ";AACE,CAAA,OAAA;AACE,SAAA,IAAA,EAAA,EAAA,EAAA,EAAA;;AAGF,OAAA,CAAA,oBAAA,EAAA;AACE,GALF,OAKE;AACE,WAAA,IAAA,GAAA,EAAA,GAAA,EAAA;;;",
+  "names": []
+}

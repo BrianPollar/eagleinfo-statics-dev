@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/auth/login-related/present-social-button/present-social-button.component.scss"],
+  "sourcesContent": [".span-or {\n  background-color: transparent;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,oBAAA;;",
+  "names": []
+}

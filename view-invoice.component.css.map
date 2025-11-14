@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/view-one/view-invoice/view-invoice.component.scss"],
+  "sourcesContent": ["/* .content {\n  // background: red;\n  width: 100% !important;\n  min-width: 100% !important;\n}\n\n.table-container {\n  padding-top: 35px;\n}\n\ntable {\n  border: 0px solid !important;\n\n  thead {\n    tr {\n      th {\n        z-index: 111111999999999999;\n        background: var(--app-color-primary) !important;\n        color: #fff;\n        border: var(--app-color-primary) !important;\n      }\n    }\n  }\n\n  tbody {\n    border-left: 0px !important;\n    tr {\n      border-left: 0px !important;\n      td {\n        border-left: 0px;\n        border-right: 0px;\n        // border-bottom: 3px solid red;\n      }\n    }\n  }\n}*/\n\n.table-responsive {\n  height: auto !important;\n}\n"],
+  "mappings": ";AAqCA,CAAA;AACE,UAAA;;",
+  "names": []
+}

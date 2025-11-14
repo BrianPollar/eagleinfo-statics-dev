@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/input/form/shared-input-field/shared-input-field.component.scss"],
+  "sourcesContent": [".optional {\n  color: green;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/loaders/loader-comerce/loader-comerce.component.css"],
+  "sourcesContent": ["/* HTML: <div class=\"loader\"></div> */\n.loader {\n  --c:no-repeat linear-gradient(orange 0 0) ;\n  background: \n    var(--c) 0 0,\n    var(--c) 0 50%,\n    var(--c) 0 100%,\n    var(--c) 50% 0,\n    var(--c) 50% 50%,\n    var(--c) 50% 100%,\n    var(--c) 100% 0,\n    var(--c) 100% 50%,\n    var(--c) 100% 100%;\n  background-size: 16px 16px;\n  animation: l31 .5s infinite alternate;\n  margin-left: calc(50% - (45px / 2));\n}\n@keyframes l31 {\n  0%,20%  {width:45px;height: 45px}\n  90%,100%{width:65px;height: 65px}\n}"],
+  "mappings": ";AACA,CAAC;AACC,MAAI,UAAU,gBAAgB,OAAO,EAAE;AACvC;AAAA,IACE,IAAI,KAAK,EAAE,CAAC;AAAA,IACZ,IAAI,KAAK,EAAE,GAAG;AAAA,IACd,IAAI,KAAK,EAAE,IAAI;AAAA,IACf,IAAI,KAAK,IAAI,CAAC;AAAA,IACd,IAAI,KAAK,IAAI,GAAG;AAAA,IAChB,IAAI,KAAK,IAAI,IAAI;AAAA,IACjB,IAAI,KAAK,KAAK,CAAC;AAAA,IACf,IAAI,KAAK,KAAK,GAAG;AAAA,IACjB,IAAI,KAAK,KAAK;AAChB,mBAAiB,KAAK;AACtB,aAAW,IAAI,IAAI,SAAS;AAC5B,eAAa,KAAK,IAAI,EAAE,CAAC,KAAK,EAAE;AAClC;AACA,WAHa;AAIX;AAAS,WAAM;AAAK,YAAQ;AAAI;AAChC;AAAS,WAAM;AAAK,YAAQ;AAAI;AAClC;",
+  "names": []
+}

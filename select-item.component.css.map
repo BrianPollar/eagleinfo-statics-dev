@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/input/select-item/select-item.component.scss"],
+  "sourcesContent": [".selectBox-cont {\n  display: flex;\n  flex-wrap: nowrap;\n  flex-direction: column;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;AACA,aAAA;AACA,kBAAA;;",
+  "names": []
+}

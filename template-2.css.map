@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/view-one/templates/template-2/template-2-shared/styles/template-2.scss"],
+  "sourcesContent": [".invoice-table th {\n  color: white;\n}\n\n.total-table tr:last-child th,\n.total-table tr:last-child td {\n  color: white !important;\n}\n"],
+  "mappings": ";AAAA,CAAA,cAAA;AACE,SAAA;;AAGF,CAAA,YAAA,EAAA,YAAA;AAAA,CAAA,YAAA,EAAA,YAAA;AAEE,SAAA;;",
+  "names": []
+}

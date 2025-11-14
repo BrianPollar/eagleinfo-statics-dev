@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/services/main-bar-title.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class MainBarTitleService {\n  title = 'Eagle Info Solutions';\n}\n\n"],
+  "mappings": ";;;;;AAKM,IAAO,sBAAP,MAAO,qBAAmB;EAHhC,cAAA;AAIE,SAAA,QAAQ;;;;uBADG,sBAAmB;IAAA;EAAA;;4EAAnB,sBAAmB,SAAnB,qBAAmB,WAAA,YAFlB,OAAM,CAAA;EAAA;;",
+  "names": []
+}

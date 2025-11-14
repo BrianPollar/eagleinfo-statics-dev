@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/view-one/templates/template-4/template-4-shared/styles/template-4.scss"],
+  "sourcesContent": [".invoice-table th {\n  color: var(--title-color);\n  background: #2d7cfe !important;\n  color: white;\n}\n\n.total-table tr:last-child,\n.total-table td:last-child {\n  background: #2d7cfe !important;\n  color: white;\n}\n"],
+  "mappings": ";AAAA,CAAA,cAAA;AACE,SAAA,IAAA;AACA,cAAA;AACA,SAAA;;AAGF,CAAA,YAAA,EAAA;AAAA,CAAA,YAAA,EAAA;AAEE,cAAA;AACA,SAAA;;",
+  "names": []
+}

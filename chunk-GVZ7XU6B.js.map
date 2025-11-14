@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/services/web-storage.service.ts"],
+  "sourcesContent": ["import { isPlatformBrowser } from '@angular/common';\nimport { Inject, Injectable, PLATFORM_ID } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class WebStorageService {\n  constructor(@Inject(PLATFORM_ID) private platformId: object) { }\n\n  get(item: string) {\n    if (isPlatformBrowser(this.platformId)) {\n      return localStorage.getItem(item);\n    }\n\n    return null;\n  }\n\n  set(item: string, value) {\n    if (isPlatformBrowser(this.platformId)) {\n      localStorage.setItem(item, value);\n    }\n  }\n\n  remove(item: string) {\n    if (isPlatformBrowser(this.platformId)) {\n      localStorage.removeItem(item);\n    }\n  }\n}\n"],
+  "mappings": ";;;;;;;;AAMM,IAAO,oBAAP,MAAO,mBAAiB;EAC5B,YAAyC,YAAkB;AAAlB,SAAA,aAAA;EAAsB;EAE/D,IAAI,MAAY;AACd,QAAI,kBAAkB,KAAK,UAAU,GAAG;AACtC,aAAO,aAAa,QAAQ,IAAI;IAClC;AAEA,WAAO;EACT;EAEA,IAAI,MAAc,OAAK;AACrB,QAAI,kBAAkB,KAAK,UAAU,GAAG;AACtC,mBAAa,QAAQ,MAAM,KAAK;IAClC;EACF;EAEA,OAAO,MAAY;AACjB,QAAI,kBAAkB,KAAK,UAAU,GAAG;AACtC,mBAAa,WAAW,IAAI;IAC9B;EACF;;;uBArBW,oBAAiB,mBACR,WAAW,CAAA;IAAA;EAAA;;4EADpB,oBAAiB,SAAjB,mBAAiB,WAAA,YAFhB,OAAM,CAAA;EAAA;;",
+  "names": []
+}

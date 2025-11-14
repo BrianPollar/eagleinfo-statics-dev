@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/tooltip/tooltip.component.scss"],
+  "sourcesContent": [".tooltip {\n  position: fixed;\n  background-color: black;\n  border-radius: 4px;\n  color: #ffffff;\n  font-family: Arial;\n  padding: 3px 6px;\n  font-size: 13px;\n  margin-top: 5px;\n  transform: translateX(-50%);\n\n  &::before {\n    content: \"\";\n    width: 0;\n    height: 0;\n    border-left: 5px solid transparent;\n    border-right: 5px solid transparent;\n    border-bottom: 5px solid black;\n    position: absolute;\n    left: calc(50% - 5px);\n    top: -5px;\n  }\n}\n\n.inherit {\n  all: inherit;\n}"],
+  "mappings": ";AAAA,CAAA;AACE,YAAA;AACA,oBAAA;AACA,iBAAA;AACA,SAAA;AACA,eAAA;AACA,WAAA,IAAA;AACA,aAAA;AACA,cAAA;AACA,aAAA,WAAA;;AAEA,CAXF,OAWE;AACE,WAAA;AACA,SAAA;AACA,UAAA;AACA,eAAA,IAAA,MAAA;AACA,gBAAA,IAAA,MAAA;AACA,iBAAA,IAAA,MAAA;AACA,YAAA;AACA,QAAA,KAAA,IAAA,EAAA;AACA,OAAA;;AAIJ,CAAA;AACE,OAAA;;",
+  "names": []
+}

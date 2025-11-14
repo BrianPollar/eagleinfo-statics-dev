@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/admin-panel/src/app/components/pane/dashboard/home/home.component.scss"],
+  "sourcesContent": [".cursor {\n  cursor: pointer;\n}\n\n.nodata-divi {\n  width: 100% !important;\n  min-height: 330px !important;\n}\n\n.tappable {\n  cursor: pointer;\n}\n/* \n.main-panel {\n  background: red !important;\n  width: 100vh !important;\n}\n\n.content-wrapper {\n  background: red !important;\n  width: 100vh !important;\n}\n\n.row {\n  background: pink !important;\n  width: 100% !important;\n}*/\n\n.main-panel {\n  width: 100vw !important;\n\n  .content-wrapper {\n    width: 85% !important;\n    background: rgb(52, 47, 48) !important;\n    margin-left: 1% !important;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,UAAA;;AAGF,CAAA;AACE,SAAA;AACA,cAAA;;AAGF,CAAA;AACE,UAAA;;AAkBF,CAAA;AACE,SAAA;;AAEA,CAHF,WAGE,CAAA;AACE,SAAA;AACA,cAAA,IAAA,EAAA,EAAA,EAAA,EAAA;AACA,eAAA;;",
+  "names": []
+}

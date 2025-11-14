@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/loaders/loader-comerce-move/loader-comerce-move.component.css"],
+  "sourcesContent": ["/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 45px;\n  aspect-ratio: .75;\n  --c: no-repeat linear-gradient(#000 0 0);\n  background:\n    var(--c) 0%   50%,\n    var(--c) 50%  50%,\n    var(--c) 100% 50%;\n  background-size: 20% 60%;\n  animation: l9 1s infinite;\n  margin-left: calc(50% - (45px / 2));\n}\n@keyframes l9 {\n  33% {background-position: 0% 0%  ,50% 100%,100% 0%  }\n  66% {background-position: 0% 100%,50% 0%  ,100% 100%}\n}\n"],
+  "mappings": ";AACA,CAAC;AACC,SAAO;AACP,gBAAc;AACd,OAAK,UAAU,gBAAgB,KAAK,EAAE;AACtC;AAAA,IACE,IAAI,KAAK,GAAK,GAAG;AAAA,IACjB,IAAI,KAAK,IAAK,GAAG;AAAA,IACjB,IAAI,KAAK,KAAK;AAChB,mBAAiB,IAAI;AACrB,aAAW,GAAG,GAAG;AACjB,eAAa,KAAK,IAAI,EAAE,CAAC,KAAK,EAAE;AAClC;AACA,WAHa;AAIX;AAAK;AAAA,MAAqB,GAAG,EAAI;AAAA,MAAC,IAAI,IAAI;AAAA,MAAC,KAAK;AAAI;AACpD;AAAK;AAAA,MAAqB,GAAG,IAAI;AAAA,MAAC,IAAI,EAAI;AAAA,MAAC,KAAK;AAAI;AACtD;",
+  "names": []
+}

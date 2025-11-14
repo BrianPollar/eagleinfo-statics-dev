@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/view-one/templates/template-10/template-10-shared/styles/template-10.scss"],
+  "sourcesContent": [".invoice-table th:first-child,\n.invoice-table td:first-child {\n  color: white;\n}\n\n.total-table3 tr:last-child {\n  th,\n  td {\n    background: #7539ff;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA,cAAA,EAAA;AAAA,CAAA,cAAA,EAAA;AAEE,SAAA;;AAIA,CAAA,aAAA,EAAA,YAAA;AAAA,CAAA,aAAA,EAAA,YAAA;AAEE,cAAA;;",
+  "names": []
+}

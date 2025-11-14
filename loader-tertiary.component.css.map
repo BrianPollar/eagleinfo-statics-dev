@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/loaders/loader-tertiary/loader-tertiary.component.css"],
+  "sourcesContent": ["/* HTML: <div class=\"loader\"></div> */\n.loader {\n  display: inline-flex;\n  gap: 5px;\n}\n.loader:before,\n.loader:after {\n  content: \"\";\n  width: 25px;\n  aspect-ratio: 1;\n  box-shadow: 0 0 0 3px inset #fff;\n  animation: l5 1.5s infinite;\n}\n.loader:after {\n  --s:-1;\n}\n@keyframes l5 {\n  0%   {transform:scaleX(var(--s,1)) translate(0) scale(1)}\n  33%  {transform:scaleX(var(--s,1)) translate(calc(50% + 2.5px)) scale(1)}\n  66%  {transform:scaleX(var(--s,1)) translate(calc(50% + 2.5px)) scale(2)}\n  100% {transform:scaleX(var(--s,1)) translate(0) scale(1)}\n}"],
+  "mappings": ";AACA,CAAC;AACC,WAAS;AACT,OAAK;AACP;AACA,CAJC,MAIM;AACP,CALC,MAKM;AACL,WAAS;AACT,SAAO;AACP,gBAAc;AACd,cAAY,EAAE,EAAE,EAAE,IAAI,MAAM;AAC5B,aAAW,GAAG,KAAK;AACrB;AACA,CAZC,MAYM;AACL,MAAI;AACN;AACA,WALa;AAMX;AAAM,eAAU,OAAO,IAAI,GAAG,CAAC,IAAI,UAAU,GAAG,MAAM;AAAE;AACxD;AAAM,eAAU,OAAO,IAAI,GAAG,CAAC,IAAI,UAAU,KAAK,IAAI,EAAE,QAAQ,MAAM;AAAE;AACxE;AAAM,eAAU,OAAO,IAAI,GAAG,CAAC,IAAI,UAAU,KAAK,IAAI,EAAE,QAAQ,MAAM;AAAE;AACxE;AAAM,eAAU,OAAO,IAAI,GAAG,CAAC,IAAI,UAAU,GAAG,MAAM;AAAE;AAC1D;",
+  "names": []
+}

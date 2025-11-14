@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/loaders/loader-circle-move/loader-circle-move.component.css"],
+  "sourcesContent": ["/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 65px;\n  height: 30px;\n  position: relative;\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  border-radius: 50px;\n  box-shadow: 0 0 0 3px inset #fff;\n  animation: l3 0.75s infinite alternate;\n}\n@keyframes l3 {\n  0% {\n    inset: 0 35px 0 0;\n  }\n  50% {\n    inset: 0 0 0 0;\n  }\n  100% {\n    inset: 0 0 0 35px;\n  }\n}"],
+  "mappings": ";AACA,CAAC;AACC,SAAO;AACP,UAAQ;AACR,YAAU;AACZ;AACA,CALC,MAKM;AACL,WAAS;AACT,YAAU;AACV,iBAAe;AACf,cAAY,EAAE,EAAE,EAAE,IAAI,MAAM;AAC5B,aAAW,GAAG,MAAM,SAAS;AAC/B;AACA,WAFa;AAGX;AACE,WAAO,EAAE,KAAK,EAAE;AAClB;AACA;AACE,WAAO,EAAE,EAAE,EAAE;AACf;AACA;AACE,WAAO,EAAE,EAAE,EAAE;AACf;AACF;",
+  "names": []
+}

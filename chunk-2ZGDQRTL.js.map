@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/admin-panel/src/environments/environment.development.ts"],
+  "sourcesContent": ["import { serverAdressesDev } from '@main-shared-lib';\n\nimport { FrontendLogger } from '@biz-nest/core-client';\nFrontendLogger.configure(undefined, 'debug');\n\n\nexport const environment = {\n  production: false\n};\n\nexport const serverAddresses = {\n  ...serverAdressesDev\n};\n\n"],
+  "mappings": ";;;;;;;;;AAGA,eAAe,UAAU,QAAW,OAAO;AAGpC,IAAM,cAAc;EACzB,YAAY;;AAGP,IAAM,kBAAkB,mBAC1B;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/admin-panel/src/app/components/pane/misc/admin-page-content/admin-page-content.component.ts", "projects/admin-panel/src/app/components/pane/misc/admin-page-content/admin-page-content.component.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\nimport { RouterModule } from '@angular/router';\n\n@Component({\n  selector: 'app-admin-page-content',\n  standalone: true,\n  imports: [\n    RouterModule\n  ],\n  templateUrl: './admin-page-content.component.html',\n  styleUrl: './admin-page-content.component.scss'\n})\nexport class AdminPageContentComponent {\n\n}\n", "<div class=\"min-h-[100vh] bg-default-white text-default-dark\">\n  <div class=\"page-content\">\n    <div class=\"container-fluid px-[0.625rem]\">\n      <ng-content></ng-content>\n    </div>\n  </div>\n</div>\n"],
+  "mappings": ";;;;;;;;;;;;;;;AAYM,IAAO,4BAAP,MAAO,2BAAyB;;;uBAAzB,4BAAyB;IAAA;EAAA;;yEAAzB,4BAAyB,WAAA,CAAA,CAAA,wBAAA,CAAA,GAAA,YAAA,MAAA,UAAA,CAAA,6BAAA,GAAA,oBAAA,KAAA,OAAA,GAAA,MAAA,GAAA,QAAA,CAAA,CAAA,GAAA,iBAAA,oBAAA,mBAAA,GAAA,CAAA,GAAA,cAAA,GAAA,CAAA,GAAA,mBAAA,eAAA,CAAA,GAAA,UAAA,SAAA,mCAAA,IAAA,KAAA;AAAA,UAAA,KAAA,GAAA;;ACZtC,QAAA,yBAAA,GAAA,OAAA,CAAA,EAA8D,GAAA,OAAA,CAAA,EAClC,GAAA,OAAA,CAAA;AAEtB,QAAA,uBAAA,CAAA;AACF,QAAA,uBAAA,EAAM,EACF;;sBDEJ,YAAY,EAAA,CAAA;EAAA;;;6EAKH,2BAAyB,EAAA,WAAA,4BAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

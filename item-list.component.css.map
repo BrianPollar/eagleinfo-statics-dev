@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/item/item-list/item-list.component.scss"],
+  "sourcesContent": [".date-list {\n  width: 100% !important;\n\n  li {\n    width: 100% !important;\n  }\n\n  a {\n    width: 100% !important;\n    background: rgba(238, 236, 236, 0.325);\n    border-radius: 10px;\n    margin-top: 20px;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;;AAEA,CAHF,UAGE;AACE,SAAA;;AAGF,CAPF,UAOE;AACE,SAAA;AACA,cAAA,KAAA,GAAA,EAAA,GAAA,EAAA,GAAA,EAAA;AACA,iBAAA;AACA,cAAA;;",
+  "names": []
+}

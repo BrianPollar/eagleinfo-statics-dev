@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/admin-panel/src/app/components/pane/subscriptions/one-package/one-package.component.scss"],
+  "sourcesContent": [".on-hover {\n  border-color: var(--app-color-secondary) !important;\n  // background: red !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,gBAAA,IAAA;;",
+  "names": []
+}

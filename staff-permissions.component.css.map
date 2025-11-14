@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/profile/staff-permissions/staff-permissions.component.scss"],
+  "sourcesContent": [".primary-color {\n  background: var(--app-primary-color);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,cAAA,IAAA;;",
+  "names": []
+}

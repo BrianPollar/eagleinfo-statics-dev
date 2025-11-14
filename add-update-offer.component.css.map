@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/offer/add-update-offer/add-update-offer.component.scss"],
+  "sourcesContent": [".photo-row {\n  img {\n    width: 75px;\n    height: 75px;\n  }\n}\n"],
+  "mappings": ";AACE,CAAA,UAAA;AACE,SAAA;AACA,UAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/view-one/templates/template-6/template-6-shared/styles/template-6.scss"],
+  "sourcesContent": [".total-table tr:last-child th,\n.total-table tr:last-child td {\n  color: white !important;\n}\n"],
+  "mappings": ";AAAA,CAAA,YAAA,EAAA,YAAA;AAAA,CAAA,YAAA,EAAA,YAAA;AAEE,SAAA;;",
+  "names": []
+}

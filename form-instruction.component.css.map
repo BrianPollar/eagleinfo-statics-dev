@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/misc/form-instruction/form-instruction.component.scss"],
+  "sourcesContent": [".required {\n  color: red;\n}\n.optional {\n  color: green;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;;AAEF,CAAA;AACE,SAAA;;",
+  "names": []
+}

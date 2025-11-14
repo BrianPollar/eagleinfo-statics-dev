@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/no-network/no-network.component.css"],
+  "sourcesContent": [".no-networkcard {\n  min-height: 200px;\n  text-align: center;\n  background: transparent;\n  padding: 30px;\n}\n.nonetwork-img {\n  height: 320px;\n  width: 100%;\n}\n\np {\n  margin-bottom: 20px !important;\n}\n\na:hover {\n  color: blue;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,cAAY;AACZ,cAAY;AACZ,cAAY;AACZ,WAAS;AACX;AACA,CAAC;AACC,UAAQ;AACR,SAAO;AACT;AAEA;AACE,iBAAe;AACjB;AAEA,CAAC;AACC,SAAO;AACT;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/side-menu-and-bar-related/ai-blob/ai-blob.component.scss"],
+  "sourcesContent": ["// for blob\n.blob-container {\n  position: relative;\n  width: 110px;\n  height: 30px;\n  pointer-events: none;\n  z-index: 1;\n  overflow: hidden;\n}\n\ncanvas {\n  position: absolute;\n  top: 0;\n  left: 0;\n  //width: 100% !important;\n  height: 100% !important;\n  z-index: 1;\n  pointer-events: auto;\n}\n"],
+  "mappings": ";AACA,CAAA;AACE,YAAA;AACA,SAAA;AACA,UAAA;AACA,kBAAA;AACA,WAAA;AACA,YAAA;;AAGF;AACE,YAAA;AACA,OAAA;AACA,QAAA;AAEA,UAAA;AACA,WAAA;AACA,kBAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/side-menu-and-bar-related/side-menu/side-menu.base.scss"],
+  "sourcesContent": [".sidebar {\n  overflow: auto;\n}\n\n.float-right {\n  position: absolute;\n  right: 10px;\n}\n\n@media print {\n  .header {\n    display: none !important;\n  }\n  .sidebar {\n    display: none !important;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,YAAA;;AAGF,CAAA;AACE,YAAA;AACA,SAAA;;AAGF,OAAA;AACE,GAAA;AACE,aAAA;;AAEF,GAbF;AAcI,aAAA;;;",
+  "names": []
+}

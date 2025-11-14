@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/validators/pattern.ts"],
+  "sourcesContent": ["import { AbstractControl, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';\n\nexport function patternWithMessage(regex: RegExp, message: string): ValidatorFn {\n  return (control: AbstractControl): ValidationErrors | null => {\n    const patternValidator = Validators.pattern(regex); // Get the original pattern validator\n    const error = patternValidator(control); // Check if the original validator fails\n\n    if (error) {\n      // If it fails, return *your* custom error object\n      // Using a key like 'customPattern' to avoid collision with the default 'pattern'\n      return { customPattern: message };\n    }\n\n    return null; // No error\n  };\n}\n"],
+  "mappings": ";;;;;AAEM,SAAU,mBAAmB,OAAe,SAAe;AAC/D,SAAO,CAAC,YAAqD;AAC3D,UAAM,mBAAmB,WAAW,QAAQ,KAAK;AACjD,UAAM,QAAQ,iBAAiB,OAAO;AAEtC,QAAI,OAAO;AAGT,aAAO,EAAE,eAAe,QAAO;IACjC;AAEA,WAAO;EACT;AACF;",
+  "names": []
+}

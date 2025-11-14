@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/staff/add-update-staff/add-update-staff.component.scss"],
+  "sourcesContent": [".photo-row {\n  img {\n    width: 75px;\n    height: 75px;\n  }\n}\n\n.radio-butt {\n  padding: 10px;\n\n  span {\n    padding-left: 7px;\n  }\n}\n"],
+  "mappings": ";AACE,CAAA,UAAA;AACE,SAAA;AACA,UAAA;;AAIJ,CAAA;AACE,WAAA;;AAEA,CAHF,WAGE;AACE,gBAAA;;",
+  "names": []
+}

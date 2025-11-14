@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/loaders/loader-spinner/loader-spinner.component.css"],
+  "sourcesContent": [".circle {\n  box-sizing: border-box;\n  width: 20px;\n  height: 20px;\n  border-radius: 100%;\n  border: 5px solid rgba(255, 255, 255, 0.2);\n  border-top-color: #FFF;\n  animation: spin 1s infinite linear;\n}\n\n@keyframes spin {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,cAAY;AACZ,SAAO;AACP,UAAQ;AACR,iBAAe;AACf,UAAQ,IAAI,MAAM,KAAK,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE;AACtC,oBAAkB;AAClB,aAAW,KAAK,GAAG,SAAS;AAC9B;AAEA,WAHa;AAIX;AACE,eAAW,OAAO;AACpB;AACF;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/input/solo-date/solo-date.component.scss"],
+  "sourcesContent": ["/* .date-picker-input {\n  background: red !important;\n  color: red !important;\n\n}*/\n\n/*\n.picker-div {\n  background: red !important;\n  color: red !important;\n  //\n}\n\ninput,\nselect,\nlabel {\n  background: red !important;\n  color: red !important;\n}*/\n\n::ng-deep {\n  .owl-dt-container {\n    background: var(--app-color-white);\n    color: var(--app-color-dark);\n    * {\n      // background: var(--app-color-white);\n      color: var(--app-color-dark) !important;\n    }\n\n    .owl-dt-calendar-cell-selected {\n      border: 1px solid var(--app-color-dark) !important;\n      background-color: var(--app-color-dark) !important;\n      color: var(--app-color-white) !important;\n    }\n\n    .owl-dt-calendar-cell-today {\n      border: 1px solid var(--app-color-dark) !important;\n    }\n  }\n}\n"],
+  "mappings": ";AAqBE,UAAA,CAAA;AACE,cAAA,IAAA;AACA,SAAA,IAAA;;AACA,UAAA,CAHF,iBAGE;AAEE,SAAA,IAAA;;AAGF,UAAA,CARF,iBAQE,CAAA;AACE,UAAA,IAAA,MAAA,IAAA;AACA,oBAAA,IAAA;AACA,SAAA,IAAA;;AAGF,UAAA,CAdF,iBAcE,CAAA;AACE,UAAA,IAAA,MAAA,IAAA;;",
+  "names": []
+}

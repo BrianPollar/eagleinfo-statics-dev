@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/services/window.service.ts"],
+  "sourcesContent": ["import { DOCUMENT } from '@angular/common';\nimport { Inject, Injectable } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class WindowService {\n  constructor(@Inject(DOCUMENT) public doc: Document) {}\n\n  getWindow(): Window | null {\n    return this.doc.defaultView;\n  }\n\n  getLocation(): Location {\n    return this.doc.location;\n  }\n\n  createElement(tag: string): HTMLElement {\n    return this.doc.createElement(tag);\n  }\n}\n"],
+  "mappings": ";;;;;;;AAMM,IAAO,gBAAP,MAAO,eAAa;EACxB,YAAqC,KAAa;AAAb,SAAA,MAAA;EAAgB;EAErD,YAAS;AACP,WAAO,KAAK,IAAI;EAClB;EAEA,cAAW;AACT,WAAO,KAAK,IAAI;EAClB;EAEA,cAAc,KAAW;AACvB,WAAO,KAAK,IAAI,cAAc,GAAG;EACnC;;;uBAbW,gBAAa,mBACJ,QAAQ,CAAA;IAAA;EAAA;;4EADjB,gBAAa,SAAb,eAAa,WAAA,YAFZ,OAAM,CAAA;EAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/shared-lib/src/lib/components/no-data/no-data.component.css"],
+  "sourcesContent": [".no-datacard {\n  min-height: 200px;\n  text-align: center;\n  background: transparent !important;\n  padding: 30px;\n}\n.nodata-img {\n  height: 320px;\n  width: 100%;\n}\n\na {\n  cursor: pointer;\n}\n\na:hover {\n  margin-top: 20px !important;\n  color: blue !important;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,cAAY;AACZ,cAAY;AACZ,cAAY;AACZ,WAAS;AACX;AACA,CAAC;AACC,UAAQ;AACR,SAAO;AACT;AAEA;AACE,UAAQ;AACV;AAEA,CAAC;AACC,cAAY;AACZ,SAAO;AACT;",
+  "names": []
+}
